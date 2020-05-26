@@ -14,7 +14,11 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
+<<<<<<< HEAD
    "start": "nodemon --watch backend --exec babel-node backend/server.js"
+=======
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
+>>>>>>> reactHooksAndRedux
   },
   "repository": {
     "type": "git",
