@@ -1,0 +1,29 @@
+{
+  "name": "niftyfarms",
+  "version": "1.0.0",
+  "description": "Nifty Farms is an agricultural company",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azenui25/niftyFarms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azenui25/niftyFarms/issues"
+  },
+  "homepage": "https://github.com/azenui25/niftyFarms#readme"
+}
