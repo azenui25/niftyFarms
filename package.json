@@ -4,21 +4,19 @@
   "description": "Nifty Farms is an agricultural company",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.16"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.6",
-    "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.9.6",
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
     "nodemon": "^2.0.4"
   },
   "scripts": {
-<<<<<<< HEAD
-   "start": "nodemon --watch backend --exec babel-node backend/server.js"
-=======
     "start": "nodemon --watch backend --exec babel-node backend/server.js"
->>>>>>> reactHooksAndRedux
   },
   "repository": {
     "type": "git",
