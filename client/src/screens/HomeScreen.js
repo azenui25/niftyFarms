@@ -37,7 +37,7 @@ useEffect(() => {
               <Link to={'/product/' + product._id}>{product.name}</Link>
             </div>
             <div className="product-brand">{product.brand}</div>
-            <div className="product-price">${product.price}</div>
+            <div className="product-price">CFA{product.price}</div>
             <div className="product-rating">{product.rating} Stars ({product.numReiews} Reviews)</div>
           </div>
         </li>)
